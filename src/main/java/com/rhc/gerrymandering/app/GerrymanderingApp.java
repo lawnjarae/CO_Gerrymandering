@@ -275,9 +275,6 @@ public class GerrymanderingApp {
 	
 		ClassLoader classLoader = GerrymanderingApp.class.getClassLoader();
 		File file = new File(classLoader.getResource("tl_2010_08_bg10.shp").getFile());
-		//File file = new File("/Users/jjarae/source/bpms/demos/optaplanner/CO_Gerrymandering/src/main/resources/tl_2010_08_bg10.shp");
-		// File file = new
-		// File("/home/justin/Downloads/2010/nc-blocks/temp/tabblock2010_37_pophu.shp");
 
 		Map<String, Object> map = new HashMap<>();
 		map.put("url", file.toURI().toURL());
